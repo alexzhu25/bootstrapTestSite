@@ -1,0 +1,4 @@
+/* no more shading for hover on carousel */
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
