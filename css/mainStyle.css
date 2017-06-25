@@ -3,7 +3,7 @@
     background-image: none
 }
 
-#section1 {
+#sectionTitle {
 	padding-top:50px;
 	background-color: #FFE5EA;
 }
@@ -13,7 +13,7 @@
 	background-color: #effbfb;
 }
 
-#section3 {
+#sectionAnimals {
 	padding-top: 50px;
 	background-color: #EAF9EF;
 }
