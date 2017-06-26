@@ -8,10 +8,15 @@
   <link rel="stylesheet" href="./css/mainStyle.css">
 </head>
 
-<!-- body data-spy="scroll" data-target=".navbar" data-offset="50" -->
+<!--body data-spy="scroll" data-target=".navbar" data-offset="50"-->
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<div id="topHeader" class="container-fluid">
+  <h1>Welcome to Alex's Bootstrap Website!</h1>
+</div>
+
+<!--nav class="navbar navbar-default navbar-fixed-top"-->
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="80">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -26,12 +31,13 @@
         <li><a href="#sectionTitle">Title</a></li>
         <li><a href="#section2">Section 2</a></li>
         <li><a href="#sectionAnimals">Cool Animal Pictures</a></li>
+        <li><a href="#section4">Text Wall</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div id="sectionTitle">
+<div id="sectionTitle" class="section">
   <div class="container">
     <h1>My Testing Website for Bootstrap <small>A work in progress</small></h1>
     <blockquote>
@@ -42,7 +48,7 @@
 </div>
 
 <!-- TODO: place images here -->
-<div id="section2">
+<div id="section2" class="section">
   <div class="container">
     <div class="row">
       <div class="col-sm-4"></div>
@@ -70,7 +76,7 @@
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
 
-<div id="sectionAnimals">
+<div id="sectionAnimals" class="section">
   <div class="container">
     <div class="page-header">
       <h1>Cool Animal Pictures</h1>
@@ -108,7 +114,34 @@
   <br><br>
 </div>
 
+<div id="section4" class="section">
+  <div class="container">
+    <div class="page-header">
+      <h1>Section 4</h1>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur nisl risus, eu volutpat mauris vehicula eget. Etiam tincidunt mauris velit, vitae feugiat tortor ornare et. Nulla felis felis, ullamcorper vel eros et, accumsan porta erat. Donec sed mauris turpis. Suspendisse lobortis diam non tempor facilisis. Aenean gravida augue ac metus vulputate, in condimentum arcu facilisis. Aenean ante elit, hendrerit a malesuada in, faucibus sed mi.
+    </p>
+    <p>
+      Aliquam suscipit pellentesque odio. Nam sapien justo, iaculis id odio eget, rutrum ultrices quam. Suspendisse imperdiet ipsum non pulvinar imperdiet. Duis sollicitudin elit arcu, id aliquam dui eleifend sit amet. Praesent nisi quam, bibendum ac mollis vitae, hendrerit eu mi. Donec ut tortor eget ligula rhoncus venenatis eu ac risus. Nunc faucibus tellus at metus tristique condimentum. Aliquam lorem lorem, facilisis vel diam ut, sollicitudin laoreet orci.
+    </p>
+    <p>
+      Praesent ornare quis metus a sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent venenatis blandit lectus, nec dignissim ligula fringilla vel. Morbi consequat aliquet ultricies. Donec aliquam, lectus eget tristique consequat, nisl dui dignissim sapien, vel luctus ex risus ac velit. Suspendisse eu enim ac velit malesuada sollicitudin in maximus orci. Donec velit tellus, tristique sed orci sed, congue dictum velit. Maecenas in nisi velit. Sed dictum fermentum justo et venenatis. Donec in mauris in ante vestibulum sagittis. Vivamus consequat varius odio vel eleifend.
+    </p>
+    <p>
+      Cras lorem massa, pellentesque eu augue in, gravida sodales dolor. Nam sit amet vehicula metus. Sed egestas ipsum lectus, in pretium mi imperdiet a. Aenean ornare leo sed pulvinar interdum. Vestibulum aliquet, libero non scelerisque bibendum, lacus nunc malesuada erat, sit amet viverra nisl lectus ut mauris. Cras ullamcorper elit sit amet diam scelerisque, commodo aliquam lorem dignissim. Duis orci tellus, interdum quis rutrum a, venenatis a diam. Proin in hendrerit mi. Vivamus suscipit porttitor vestibulum. Morbi nisl magna, dignissim at elit a, auctor aliquet nulla. Phasellus vel vulputate massa, nec euismod arcu. Integer consectetur orci in justo porttitor placerat. Nunc at efficitur arcu, non vulputate lacus. Suspendisse urna metus, placerat nec magna eu, porta aliquet felis. Morbi nec eros lacinia, sagittis ex a, egestas velit. Duis in neque nulla.
+    </p>
+    <p>
+      Quisque sagittis feugiat lacinia. Etiam magna nibh, varius in lacinia sed, cursus sollicitudin diam. Nullam fermentum risus et leo consectetur, vel semper odio blandit. Pellentesque varius turpis et sapien ornare tincidunt. Vestibulum ut turpis vulputate, mattis erat non, molestie purus. Etiam dui dui, ultrices eu rutrum a, vehicula et odio. Fusce eu lorem ante.
+    </p>
+    <br><br>
+  </div>
+</div>
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="container-fluid">
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
