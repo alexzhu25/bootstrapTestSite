@@ -44,10 +44,15 @@ p {
   width: 30px;
 }
 
+/* Area above navbar for welcoming */
 #topHeader {
-  height: 80px;
   overflow: hidden;
+  height: 60px;
   background-color: #ff7676;
+  /* horizontal centering for text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .section {
