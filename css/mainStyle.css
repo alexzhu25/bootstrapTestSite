@@ -37,6 +37,8 @@ p {
 
 #topHeader {
   height: 80px;
+  overflow: hidden;
+  background-color: #ff7676;
 }
 
 .section {
