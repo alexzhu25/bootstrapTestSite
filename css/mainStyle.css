@@ -23,6 +23,11 @@ p {
   height: 50px;
 }
 
+.carousel {
+  width: 800px; 
+  margin: 0 auto;
+}
+
 /* no more shading for hover on carousel */
 .carousel-control.left, .carousel-control.right {
   background-image: none;
