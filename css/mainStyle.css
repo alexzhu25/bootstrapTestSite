@@ -55,22 +55,26 @@ p {
 }
 
 .section {
-  padding-top: 50px;
+  /*padding-top: 50px;*/
   padding-bottom: 50px;
 }
 
 #sectionTitle {
-  background-color: #FFE5EA;
+  /*background-color: #FFE5EA;*/
+  background: linear-gradient(#FFE5EA, #b3cbdd);
 }
 
 #section2 {
-  background-color: #effbfb;
+  /*background-color: #effbfb;*/
+  background: linear-gradient(#b3cbdd, #EAF9EF);
 }
 
 #sectionAnimals {
-  background-color: #EAF9EF;
+  /*background-color: #EAF9EF;*/
+  background: linear-gradient(#EAF9EF, #e0cce8);
 }
 
 #section4 {
-  background-color: #e0cce8;
+  /*background-color: #e0cce8;*/
+  background: linear-gradient(#e0cce8, white);
 }
