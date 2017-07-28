@@ -78,3 +78,14 @@ p {
   /*background-color: #e0cce8;*/
   background: linear-gradient(#e0cce8, white);
 }
+
+/* scrollmagic classes */
+.parallaxParent {
+  height: 300px;
+  overflow: hidden;
+}
+.parallaxParent > * {
+  height: 200%;
+  position: relative;
+  top: -100%;
+}
